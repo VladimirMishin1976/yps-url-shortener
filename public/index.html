@@ -1,14 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>URL Shortener. Yandex Praktikum Students</title>
-    <link rel="stylesheet" href="./pages/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>URL Shortener. Yandex Praktikum Students</title>
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body>
+
+<body class="page">
+  <header class="header page__section-width">
+    <nav class="header__nav">
+      <a class="logo" href="#" target="_self">
+        <img class="logo__img" src="./images/logo.svg" alt="Logo Shortly">
+      </a>
+
+      <!-- hamburger-menu -->
+      <input class="header__hamburger-menu" type="checkbox" id="header__hamburger-menu">
+      <label class="header__hamburger-icon" for="header__hamburger-menu">☰</label>
+
+      <ul class="header__list">
+        <li class="header__list-item"><a class="header__link" href="#" target="_self">Features</a></li>
+        <li class="header__list-item"><a class="header__link" href="#" target="_self">Pricing</a></li>
+        <li class="header__list-item"><a class="header__link" href="#" target="_self">Resources</a></li>
+        <li class="header__list-decor"></li>
+        <li class="header__list-item"><a class="header__link" href="#" target="_self">Login</a></li>
+        <li class="header__list-item"><button class="button button_radius_big button_size_small button_place_header"
+            type="button" aria-label="Sign Up">Sign Up</button></li>
+      </ul>
+      <!--  -->
+    </nav>
+
+    <h1 class="header__title">More than just shorter links</h1>
+    <p class="header__subtitle">Build your brand’s recognition and get detailed insights on how your links are
+      performing.
+    </p>
+    <button class="button button_radius_big button_size_medium" type="button" aria-label="Get Started">Get
+      Started</button>
+  </header>
+
+  <main>
+    <section class="shortener page__section-width">
+      <form action="" class="shortener__form">
+        <fieldset class="shortener__container">
+          <input class="shortener__input-link" type="url" name="urlLong" id="urlLong"
+            placeholder="Shorten a link here...">
+          <label class="shortener__input-label" for="urlLong">Please add a link</label>
+        </fieldset>
+        <button class="button button_radius_medium button_size_big" type="submit" aria-label="Shorten It!">Shorten
+          It!</button>
+      </form>
+      <!-- Поля с результатами -->
+      <ul class="shortener__result-list">
+        <li class="shortener__result-container">
+          <p class="shortener__result-long-link">https://www.mystartup.io</p>
+          <p class="shortener__result-short-link">https://rel.ink/k4lKyk</p>
+          <button class="button button_radius_small button_size_small shortener__button">Copy</button>
+        </li>
+
+        <li class="shortener__result-container">
+          <p class="shortener__result-long-link">https://www.mystartup.io</p>
+          <p class="shortener__result-short-link">https://rel.ink/k4lKyk</p>
+          <button class="button button_radius_small button_size_small shortener__button">Copy</button>
+        </li>
+
+        <li class="shortener__result-container">
+          <p class="shortener__result-long-link">https://www.mystartup.io</p>
+          <p class="shortener__result-short-link">https://rel.ink/k4lKyk</p>
+          <button class="button button_radius_small button_size_small shortener__button">Copy</button>
+        </li>
+      </ul>
+    </section>
+
+    <section class="statistic page__section-width">
+      <h2 class="statistic__title">Advanced Statistics</h2>
+      <p class="statistic__subtitle">Track how your links are performing across the web with our advanced statistics
+        dashboard.</p>
+
+      <ul class="statistic__list">
+        <li class="statistic__item">
+          <article class="card">
+            <div class="card__icon card__icon_topic_recognition"></div>
+            <h2 class="card__title">Brand Recognition</h2>
+            <p class="card__text">Boost your brand recognition with each click. Generic links don’t mean a thing.
+              Branded links help instil confidence in your content.</p>
+          </article>
+        </li>
+        <li class="statistic__item">
+          <article class="card">
+            <div class="card__icon card__icon_topic_record"></div>
+            <h2 class="card__title">Detailed Records</h2>
+            <p class="card__text">Gain insights into who is clicking your links. Knowing when and where people engage
+              with your content helps inform better decisions.</p>
+          </article>
+        </li>
+        <li class="statistic__item">
+          <article class="card">
+            <div class="card__icon card__icon_topic_customizable"></div>
+            <h2 class="card__title">Fully Customizable</h2>
+            <p class="card__text">Improve brand awareness and content discoverability through customizable links,
+              supercharging audience engagement.</p>
+          </article>
+        </li>
+
+      </ul>
+    </section>
+
+  </main>
+
 
 </body>
+
 </html>

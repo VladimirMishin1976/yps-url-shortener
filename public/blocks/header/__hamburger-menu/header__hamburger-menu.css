@@ -1,0 +1,7 @@
+.header__hamburger-menu {
+  visibility: hidden;
+}
+
+.header__hamburger-menu:checked ~ .header__list {
+  display: flex;
+}

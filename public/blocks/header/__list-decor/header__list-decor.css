@@ -1,0 +1,13 @@
+.header__list-decor {
+  margin: auto;
+}
+
+@media screen and (max-width: 670px) {
+  .header__list-decor {
+    width: calc(100% - 48px);
+    height: 0;
+    border-bottom: 1px solid #9E9AA8;
+    margin-bottom: 30px;
+    opacity: 25%;
+  }
+}

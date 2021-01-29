@@ -1,0 +1,14 @@
+.card {
+  position: relative;
+  max-width: 350px;
+  box-sizing: border-box;
+  padding: 77px 32px 41px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 1140px) {
+  .card {
+    text-align: center;
+  }
+}

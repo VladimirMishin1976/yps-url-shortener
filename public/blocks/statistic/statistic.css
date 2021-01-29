@@ -1,0 +1,15 @@
+.statistic {
+  background-color: #EFF1F7;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 670px) {
+  .statistic {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}

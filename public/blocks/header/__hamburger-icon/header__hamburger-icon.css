@@ -1,0 +1,22 @@
+.header__hamburger-icon {
+  color: #9E9AA8;
+  font-size: 24px;
+  line-height: 24px;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  transition: .12s linear;
+}
+
+.header__hamburger-icon:hover {
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 670px) {
+  .header__hamburger-icon {
+    visibility: visible;
+    width: 24px;
+    height: 24px;
+  }
+}

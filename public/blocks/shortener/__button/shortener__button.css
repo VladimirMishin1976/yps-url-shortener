@@ -1,0 +1,11 @@
+.shortener__button {
+  align-self: center;
+}
+
+@media screen and (max-width: 670px) {
+  .shortener__button {
+    width: 300px;
+    max-width: calc(100% - 32px);
+    min-height: 48px;
+  }
+}

@@ -1,0 +1,11 @@
+.page__section-width {
+  padding-left: calc(165px - 1440px / 2 + 50%);
+  padding-right: calc(165px - 1440px / 2 + 50%);
+}
+
+@media screen and (max-width: 1162px) {
+  .page__section-width {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

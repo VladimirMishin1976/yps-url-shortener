@@ -1,0 +1,16 @@
+.shortener__container {
+  height: 64px;
+  flex-grow: 1;
+  margin: 0 24px 0 0;
+  padding: 0;
+  border: none;
+}
+
+@media screen and (max-width: 670px) {
+  .shortener__container {
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+
+  }
+}

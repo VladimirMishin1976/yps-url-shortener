@@ -1,0 +1,17 @@
+.card__icon {
+  position: absolute;
+  top: -44px;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: #3A3054;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 670px) {
+  .card__icon {
+    left: 50%;
+    transform: translate(-50%);
+  }
+}

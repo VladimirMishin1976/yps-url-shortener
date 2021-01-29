@@ -1,0 +1,17 @@
+.button_size_big {
+  min-width: 188px;
+  min-height: 64px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 670px) {
+  .button_size_big {
+    min-width: 279px;
+    min-height: 48px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}

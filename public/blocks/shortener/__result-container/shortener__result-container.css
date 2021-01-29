@@ -1,0 +1,15 @@
+.shortener__result-container {
+  padding: 0 32px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 670px) {
+  .shortener__result-container {
+    padding: 0 0 16px 0;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

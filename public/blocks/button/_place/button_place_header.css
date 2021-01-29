@@ -1,0 +1,8 @@
+@media screen and (max-width: 670px) {
+  .button_place_header {
+    width: 279px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}

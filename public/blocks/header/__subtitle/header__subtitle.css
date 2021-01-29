@@ -1,0 +1,33 @@
+.header__subtitle {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 38px;
+  max-width: 565px;
+  min-width: 327px;
+  font-style: normal;
+  font-weight: medium;
+  font-size: 22px;
+  line-height: 1.64;
+  letter-spacing: 0.15px;
+  color: #9E9AA8;
+}
+
+@media screen and (max-width: 1440px) {
+  .header__subtitle {
+    max-width: 44.3%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__subtitle {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.12px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .header__subtitle {
+    text-align: center;
+  }
+}

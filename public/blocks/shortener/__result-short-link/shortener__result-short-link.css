@@ -1,0 +1,17 @@
+.shortener__result-short-link {
+  margin: 0;
+  padding: 18px 24px;
+  color: rgba(43, 208, 208, 1);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 670px) {
+  .shortener__result-short-link {
+    padding: 6px 16px;
+  }
+  .shortener__result-short-link:last-child {
+    padding-left: 16px;
+  }
+}

@@ -1,0 +1,51 @@
+.shortener__input-link {
+  width: 100%;
+  min-height: 64px;
+  padding: 0 32px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.8;
+  letter-spacing: 0.15px;
+  /* Пока цвет вводимого текста ? */
+  color: rgba(0, 0, 0, 1);
+  transition: border .2s linear;
+}
+
+.shortener__input-link::placeholder {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.8;
+  letter-spacing: 0.15px;
+  color: #9E9AA8;
+}
+
+.shortener__input-link:focus {
+  outline: none;
+  border: 3px solid #F46363;
+  /* Пока цвет вводимого текста ? */
+  color: rgba(0, 0, 0, 1);
+}
+
+.shortener__input-link:focus::placeholder {
+  color: rgba(244, 99, 99, .5);
+}
+
+@media screen and (max-width: 670px) {
+  .shortener__input-link {
+    border-radius: 5px;
+    padding: 0 16px;
+    min-height: 48px;
+    font-size: 16px;
+    line-height: 2.25;
+    letter-spacing: 0.12px;
+  }
+  .shortener__input-link::placeholder {
+    font-size: 16px;
+    line-height: 2.25;
+    letter-spacing: 0.12px;
+  }
+}

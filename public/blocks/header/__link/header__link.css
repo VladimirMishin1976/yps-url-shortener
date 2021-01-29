@@ -1,0 +1,26 @@
+.header__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #9E9AA8;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  transition: .2s linear;
+}
+
+.header__link:hover {
+  color: #34313D;
+}
+
+@media screen and (max-width: 670px) {
+  .header__link {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .header__link:hover {
+    color: #ffffff;
+    opacity: .6;
+  }
+}

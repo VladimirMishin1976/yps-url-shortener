@@ -1,0 +1,9 @@
+.button_radius_medium {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 670px) {
+  .button_radius_medium {
+    border-radius: 5px;
+  }
+}

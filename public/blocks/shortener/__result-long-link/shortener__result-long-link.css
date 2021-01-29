@@ -1,0 +1,17 @@
+.shortener__result-long-link {
+  margin: 0;
+  padding: 18px 0;
+  color: #34313D;
+  flex-grow: 2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 670px) {
+  .shortener__result-long-link {
+    padding: 6px 16px;
+    border-bottom: 1px solid rgba(158, 154, 168, .25);
+
+  }
+}
