@@ -4,14 +4,21 @@
   align-items: center;
 }
 
+.header__list-item:nth-last-child(2) {
+  margin-right: 39px;
+}
+
 .header__list-item:last-of-type {
   margin: 0;
 }
 
 @media screen and (max-width: 670px) {
   .header__list-item {
-    margin: auto;
+    margin: 0;
     padding-bottom: 30px;
+  }
+  .header__list-item:nth-last-child(2) {
+    margin-right: 0;
   }
   .header__list-item:last-of-type {
     padding-bottom: 0;

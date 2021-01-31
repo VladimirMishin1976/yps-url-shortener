@@ -1,0 +1,15 @@
+.footer__column-link {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.234375px;
+  color: #BFBFBF;
+}
+
+.footer__column-link:hover {
+  color: #2BD0D0;
+}

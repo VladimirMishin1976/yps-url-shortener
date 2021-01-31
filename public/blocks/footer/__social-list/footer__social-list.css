@@ -1,0 +1,15 @@
+.footer__social-list {
+  padding-left: 5.9vw;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 800px) {
+  .footer__social-list {
+    padding-left: 0;
+    padding-top: 48px;
+  }
+}

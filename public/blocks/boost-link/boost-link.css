@@ -1,0 +1,16 @@
+.boost-link {
+  padding-top: 57px;
+  padding-bottom: 57px;
+  background-color: #3A3054;
+  background-image: url(../../images/bg-boost-desktop.svg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 670px) {
+  .boost-link {
+    padding-top: 94px;
+    padding-bottom: 88px;
+  }
+}

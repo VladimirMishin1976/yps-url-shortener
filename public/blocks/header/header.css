@@ -2,13 +2,13 @@
   position: relative;
   background-color: #ffffff;
   padding-top: 48px;
-  padding-bottom: 15.4%;
-  background: #ffffff url(../../images/illustration-working.svg) no-repeat 113% 34%/ 50.9% auto;
+  padding-bottom: 15.4vw;
+  background: #ffffff url(../../images/illustration-working.svg) no-repeat 120% 52%/ 51.9% auto;
 }
 
 @media screen and (max-width: 670px) {
   .header {
-    background: #ffffff url(../../images/illustration-working.svg) no-repeat 31px 29px/ 460px auto;
+    background: #FFFFFF url(../../images/illustration-working.svg) no-repeat 26px 122px/ 494px auto;
     padding-bottom: 168px;
     display: flex;
     flex-direction: column;

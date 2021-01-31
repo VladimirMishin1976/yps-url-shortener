@@ -1,0 +1,8 @@
+.icon__img {
+  fill: #ffffff;
+  transition: .15s linear;
+}
+
+.icon__img:hover {
+  fill: #2BD0D0;
+}

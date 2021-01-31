@@ -1,7 +1,6 @@
 .statistic__subtitle {
   margin: 1em 0 0 0;
   max-width: 540px;
-  width: calc(100% - 48px);
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
